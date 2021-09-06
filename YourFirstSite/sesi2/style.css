@@ -1,0 +1,106 @@
+body{
+    background-color: grey;
+}
+
+.navbar{
+    margin: 0px;
+    background-color: white;
+    float: right;
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li{ 
+    float: left;
+    list-style-type: none;
+    background-color: white;
+}
+
+.navbar li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: grey;
+    color: black;
+    transition: 0.6s;
+}
+
+.mid{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    top: 65px;
+    width: 1200px;
+    margin-left: 50px;
+}
+.mid >div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+#ket{
+    font-weight: bold;
+}
+
+#picture{
+    margin-top: 30px;
+}
+
+.form{
+    position: absolute;
+    top: 330px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 1200px;
+    margin-left: 50px;
+    border: 10px;
+}
+
+.form label{
+    font-weight: bold;
+}
+.form input{
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#submit{
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid white;
+}
+#submit >input{
+    background-color: green;
+    border: none;
+    width: 100%;
+    border: 1px;
+    font-weight: bold;
+}
+
+#submit :hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+    width: 100%;
+    border: green;
+}
